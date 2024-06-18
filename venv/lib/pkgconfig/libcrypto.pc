@@ -1,0 +1,11 @@
+libdir=/Users/deveshdhyani/Documents/Projects/Cohere/venv/lib
+includedir=/Users/deveshdhyani/Documents/Projects/Cohere/venv/include
+enginesdir=/Users/deveshdhyani/Documents/Projects/Cohere/venv/lib/engines-3
+modulesdir=/Users/deveshdhyani/Documents/Projects/Cohere/venv/lib/ossl-modules
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Version: 3.3.1
+Libs: -L${libdir} -lcrypto
+Libs.private: 
+Cflags: -I${includedir}
